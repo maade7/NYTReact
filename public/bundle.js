@@ -19856,20 +19856,7 @@
 				React.createElement(
 					'div',
 					{ className: 'row' },
-					React.createElement(
-						'div',
-						{ className: 'jumbotron', style: { 'backgroundImage': 'url(./assets/images/newspaper.jpg)', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center', 'backgroundSize': '100% 100%', 'backgroundAttachment': 'fixed' } },
-						React.createElement(
-							'h2',
-							{ className: 'text-center', style: { 'color': 'white', 'textShadow': '3px 3px 10px black', 'fontSize': '54px' } },
-							'New York Times Article Search and Save'
-						),
-						React.createElement(
-							'p',
-							{ className: 'text-center', style: { 'color': 'white', 'textShadow': '3px 3px 10px black', 'fontSize': '24px' } },
-							'Search for and save articles of interest!'
-						)
-					)
+					React.createElement('div', { className: 'jumbotron', style: { 'backgroundImage': 'url(./assets/images/newspaper.jpg )', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center', 'backgroundSize': '100% 100%', 'backgroundAttachment': 'fixed' } })
 				),
 				React.createElement(
 					'div',
@@ -21148,7 +21135,7 @@
 
 			return React.createElement(
 				"div",
-				{ className: "panel panel-primary" },
+				{ className: "panel panel-default" },
 				React.createElement(
 					"div",
 					{ className: "panel-heading" },
@@ -21158,7 +21145,7 @@
 						React.createElement(
 							"strong",
 							null,
-							"Search"
+							"Search for and save articles of interest"
 						)
 					)
 				),
@@ -21206,7 +21193,7 @@
 							React.createElement("br", null),
 							React.createElement(
 								"button",
-								{ type: "button", className: "btn btn-primary", onClick: this.handleClick },
+								{ type: "button", className: "btn btn-default", onClick: this.handleClick },
 								"Search"
 							)
 						)
