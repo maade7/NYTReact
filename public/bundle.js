@@ -19856,7 +19856,7 @@
 				React.createElement(
 					'div',
 					{ className: 'row' },
-					React.createElement('div', { className: 'jumbotron', style: { 'height': '200px', 'margin-top': '30px', 'margin-bottom': '0px', 'color': 'black', 'backgroundImage': 'url(./assets/images/the_new_york_times_logo.gif)', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center', 'backgroundSize': '100% 100%' } })
+					React.createElement('div', { className: 'jumbotron', style: { 'height': '200px', 'margin-bottom': '0px', 'color': 'black', 'backgroundImage': 'url(./assets/images/the_new_york_times_logo.gif)', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center', 'backgroundSize': '100% 100%' } })
 				),
 				React.createElement(
 					'div',
@@ -21252,7 +21252,7 @@
 					React.createElement("br", null),
 					React.createElement(
 						"button",
-						{ type: "button", className: "btn btn-warning", style: { 'float': 'right', 'marginTop': '-39px' }, onClick: boundClick },
+						{ type: "button", className: "btn btn-success", style: { 'float': 'right', 'marginTop': '-39px' }, onClick: boundClick },
 						"Save"
 					)
 				);
@@ -21265,7 +21265,7 @@
 		render: function render() {
 			return React.createElement(
 				"div",
-				{ className: "panel panel-warning" },
+				{ className: "panel panel-success" },
 				React.createElement(
 					"div",
 					{ className: "panel-heading" },
@@ -21333,7 +21333,7 @@
 					React.createElement("br", null),
 					React.createElement(
 						"button",
-						{ type: "button", className: "btn btn-success", style: { 'float': 'right', 'marginTop': '-39px' }, onClick: boundClick },
+						{ type: "button", className: "btn btn-warning", style: { 'float': 'right', 'marginTop': '-39px' }, onClick: boundClick },
 						"Delete"
 					)
 				);
@@ -21347,7 +21347,7 @@
 
 			return React.createElement(
 				"div",
-				{ className: "panel panel-success" },
+				{ className: "panel panel-warning" },
 				React.createElement(
 					"div",
 					{ className: "panel-heading" },
