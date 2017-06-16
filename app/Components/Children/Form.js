@@ -36,7 +36,7 @@ var Form = React.createClass({
 
 		return(
 
-			<div className="panel panel-default">
+			<div className="panel panel-info">
 				<div className="panel-heading">
 					<h2 className="panel-title text-center"><strong>Search for and save articles of interest</strong></h2>
 				</div>
@@ -56,7 +56,7 @@ var Form = React.createClass({
 								<input type="text" className="form-control text-center" id="endYear" onChange= {this.handleChange} required/>
 								<br />
 								
-								<button type="button" className="btn btn-default" onClick={this.handleClick}>Search</button>
+								<button type="button" className="btn btn-info" onClick={this.handleClick}>Search</button>
 							</div>
 
 						</form>

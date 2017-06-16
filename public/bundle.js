@@ -21135,7 +21135,7 @@
 
 			return React.createElement(
 				"div",
-				{ className: "panel panel-default" },
+				{ className: "panel panel-info" },
 				React.createElement(
 					"div",
 					{ className: "panel-heading" },
@@ -21193,7 +21193,7 @@
 							React.createElement("br", null),
 							React.createElement(
 								"button",
-								{ type: "button", className: "btn btn-default", onClick: this.handleClick },
+								{ type: "button", className: "btn btn-info", onClick: this.handleClick },
 								"Search"
 							)
 						)
