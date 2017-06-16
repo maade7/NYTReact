@@ -98,7 +98,7 @@ var Main = React.createClass({
 
 				<div className="row">
 
-					<div className="jumbotron" style={{'backgroundImage': 'url(./assets/images/the_new_york_times_logo.gif)', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center', 'backgroundSize': '10% 10%', 'backgroundAttachment': 'fixed'}}>
+					<div className="jumbotron" style={{    'height': '200px', 'margin-top': '30px', 'margin-bottom': '0px', 'color': 'black', 'backgroundImage': 'url(./assets/images/the_new_york_times_logo.gif)', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center', 'backgroundSize': '100% 100%', 'backgroundAttachment': 'fixed'}}>
 						{/*<h2 className="text-center" style={{'color': 'white', 'textShadow': '3px 3px 10px black', 'fontSize': '54px'}}></h2>*/}
 						{/*<p className="text-center" style={{'color': 'white', 'textShadow': '3px 3px 10px black', 'fontSize': '24px'}}></p>*/}
 					</div>
