@@ -19856,7 +19856,7 @@
 				React.createElement(
 					'div',
 					{ className: 'row' },
-					React.createElement('div', { className: 'jumbotron', style: { 'backgroundImage': 'url(./assets/images/newspaper.jpg )', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center', 'backgroundSize': '100% 100%', 'backgroundAttachment': 'fixed' } })
+					React.createElement('div', { className: 'jumbotron', style: { 'backgroundImage': 'url(./assets/images/the_new_york_times_logo.gif)', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center', 'backgroundSize': '100% 100%', 'backgroundAttachment': 'fixed' } })
 				),
 				React.createElement(
 					'div',
